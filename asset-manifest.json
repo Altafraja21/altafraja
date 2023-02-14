@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/altafraja/static/css/main.9cf42eaa.css",
+    "main.js": "/altafraja/static/js/main.9d70c565.js",
+    "index.html": "/altafraja/index.html",
+    "main.9cf42eaa.css.map": "/altafraja/static/css/main.9cf42eaa.css.map",
+    "main.9d70c565.js.map": "/altafraja/static/js/main.9d70c565.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cf42eaa.css",
+    "static/js/main.9d70c565.js"
+  ]
+}
