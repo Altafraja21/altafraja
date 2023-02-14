@@ -1,0 +1,139 @@
+.projects{
+    margin-top: 8rem;
+   
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+    
+}
+
+
+ h1{
+    color:  rgb(19 15 73);
+    font-family: Poppins,sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -.05em;
+    padding: 20px;
+    
+}
+
+
+.container{
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: space-evenly;
+    width: 70rem;
+    margin-bottom: 5rem;
+
+}
+
+
+.container .card{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    flex-basis: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#card1{
+    margin-top: 3rem;
+}
+
+
+#card2{
+    margin-top: 3rem;
+}
+
+
+#card3{
+    margin-top: 3rem;
+}
+
+
+
+
+
+.container .card img{
+
+    width: 100%;
+  object-fit: cover;
+  height: 10rem;
+
+}
+
+.container .card h4{
+
+    padding: 10px 5px;
+    
+    color: rgb(52 161 205);
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.container .card p{
+    font-family: 'PT Mono', monospace;
+   padding: 10px;
+    font-size: 15px;
+}
+
+
+.container .card button{
+
+    border: none;
+    margin: 17px 25px;
+    padding: 10px 25px ;
+    
+    background-color:  rgb(19 15 73);
+    color:white;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+@media  screen and (max-width:65rem)
+
+{
+
+    
+    .projects .container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+   
+
+    .container .card{
+
+      width: 20rem;
+      
+    }
+
+
+    .container .card img{
+        height: 25vh;
+    }
+
+}

@@ -1,0 +1,242 @@
+.Qualification{
+     margin-top: 5rem;
+    
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.Qualification h1{
+   
+    color:  rgb(19 15 73);
+    font-family: Poppins,sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -.05em;
+    text-align: center;
+    
+}
+
+.skillbox{
+    width: 60rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color:white;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+.skillbox p{
+
+    font-family: 'PT Mono', monospace;
+    padding: 10px;
+    color:rgb(19 15 73);
+    font-weight: 700;
+}
+.container1{
+   
+    background-color: white;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    width: 100%;
+    border-radius: 16px;
+   
+}
+  
+
+.skillset{
+    text-align: right;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    
+   
+}
+
+
+.html{
+    width: 85%;
+    background:#faf60a;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    animation: html 1s linear;
+    cursor: pointer;
+
+}
+
+.css{
+    width: 70%;
+    background:#c91a1a;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    animation: css 1s linear;
+    cursor: pointer;
+}
+
+.javascript{
+    width: 65%;
+    background: rgba(13, 216, 94, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    animation: javascript 1.5s linear;
+    cursor: pointer;
+}
+
+.react{
+    width: 70%;
+    background: #f542e0;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    animation: react 1s linear;
+    cursor: pointer;
+}
+
+.seo{
+    width: 75%;
+    background: #4287f5;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    margin-bottom: 0.5rem;
+  animation: seo 1s linear;
+  cursor: pointer;
+
+}
+
+
+
+@keyframes html{
+    0%{
+            width: 0%;
+        }
+    
+      
+        40%{
+            width: 40%;
+        }
+    
+      
+    
+      
+    
+        85%{
+            width: 85%;
+        }
+    }
+    
+
+
+
+
+@keyframes css{
+    0%{
+            width: 0%;
+        }
+    
+      
+        40%{
+            width: 40%;
+        }
+    
+      
+    
+      
+    
+        70%{
+            width: 70%;
+        }
+    }
+
+    
+
+
+@keyframes javascript{
+    0%{
+            width: 0%;
+        }
+    
+      
+        40%{
+            width: 40%;
+        }
+    
+      
+    
+      
+    
+        65%{
+            width: 65%;
+        }
+    }
+    
+
+
+
+
+    @keyframes seo{
+        0%{
+                width: 0%;
+            }
+        
+          
+            40%{
+                width: 40%;
+            }
+        
+          
+        
+          
+        
+            75%{
+                width: 75%;
+            }
+        }
+
+       
+
+@keyframes react{
+    0%{
+        width:0%;
+    }
+
+  
+    40%{
+        width: 40%;
+    }
+
+  
+
+  
+
+    70%{
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width:65rem) {
+    
+    .Qualification{
+
+       
+        display: none;
+        
+       
+    }
+
+   
+  
+
+    
+}
